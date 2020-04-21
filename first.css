@@ -1,0 +1,90 @@
+body{
+	background : url("images.jpg");
+	text-transform:uppercase;
+	}
+a{
+	font-size:1.3rem;
+	text-decoration:none;
+	color:white;
+	transition : .5s;
+}
+#selected , a:hover{
+	color : #EA1C2C;
+	font-weight : 100;
+	font-size : 1.5rem;
+}
+
+
+h1{
+	color : #EA1C2C;
+	font-weight : bold;
+	text-align:center;
+	margin-bottom:40px;	
+	font-family: 'Special Elite', cursive;
+}
+li{
+	float:left;
+	list-style:none;
+	margin-right:40px;
+	padding:5px;
+	font-family: 'Special Elite', cursive;
+}
+
+ul{
+	height:50px;
+	width:100%;
+	justify-content:center;`
+}
+img{
+	width:100%;
+	border-radius:40;
+
+}
+.same{
+	float:left;
+	}
+#para{
+	color:white;
+	text-align:center;
+	width:60%;
+	font-family: 'Special Elite', cursive;
+	}
+h2{
+	font-size:30px;
+	color : #EA1C2C;
+	font-family: 'Special Elite', cursive;
+	text-decoration:underline;
+}
+h2,p{
+	display:inline-block;
+}
+.bio{
+	line-height: 2 ;
+	margin:40px;
+	font-size:20px;
+}
+#image{
+	width:40%;
+	}
+.mat{
+	padding:125px;
+	}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color:rgba(255, 255, 255, .4);
+    color: white;
+	}
+	img{
+	animation-name:slidein;
+	animation-duration:4s;
+	}
+@keyframes slidein{
+0%{
+left:-1000px;
+}
+100%{
+left:0px;
+}
+}	
